@@ -13,4 +13,4 @@ test:
 
 # scripts to run after tests
 after_test:
-  - cmd: Runsamples.cmd --validate
+  - cmd: Runsamples.cmd --validate --torun DFRddSample --verbose
